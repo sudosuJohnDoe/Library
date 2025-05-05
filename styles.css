@@ -1,0 +1,22 @@
+::selection {
+    background-color: #ffffff;
+    color: #ff0000;
+}
+body{
+    background-image: url(media/img/background.png);
+	background-color: #000000;
+	}
+p {
+	color: #000000;
+	font-family: 'Consolas';
+	font-size: 20px;
+}
+.img {
+    width:80px;
+    height:70px;
+}
+.text {
+    color: #000000;
+	font-family: 'Consolas';
+	font-size: 10px;
+}
