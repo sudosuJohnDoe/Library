@@ -1,0 +1,26 @@
+::selection {
+    background-color: #ffffff;
+    color: #9c0000;
+}
+body{
+	background-color: #1e1e1e;
+	}
+.text {
+	color: #e6a500;
+	font-family: 'Courier New';
+	font-size: 20px;
+}
+#outputText {
+	color: #e6a500;
+	font-family: 'Courier New';
+	font-size: 20px;
+}
+input {
+	background-color: transparent;
+	border: none;
+	color: #e6a500;
+	font-family: 'Courier New';
+	font-size: 20px;
+	outline: none;
+	padding: 0px;
+}
