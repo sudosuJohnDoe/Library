@@ -10,7 +10,7 @@ body{
 	}
 p {
 	color: #e6a500;
-	font-family: 'Consolas';
+	font-family: 'Courier New';
 	font-size: 20px;
 	text-align: center;
 }
@@ -28,6 +28,6 @@ img {
 }
 .text {
     color: #e6a500;
-	font-family: 'Consolas';
+	font-family: 'Courier New';
 	font-size: 10px;
 }
