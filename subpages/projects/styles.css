@@ -1,0 +1,21 @@
+::selection {
+    background-color: #ffffff;
+    color: #9c0000;
+}
+body{
+	background-color: #1e1e1e;
+	}
+p {
+	color: #e6a500;
+	font-family: 'Courier New';
+	font-size: 20px;
+}
+.img {
+    width:280px;
+    height:220px;
+}
+.text {
+    color: #e6a500;
+	font-family: 'Courier New';
+	font-size: 10px;
+}
