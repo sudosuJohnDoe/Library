@@ -18,8 +18,11 @@ p {
 .rectangle {
 	background-color: #fe7700;
 	height: 50px;
-	width: 50px;
+	width: auto;
 }
-.text {
-	font-size: 9px;
+.titletext0 {
+	font-size: 18px;
+}
+.titletext1 {
+	font-size: 32px;
 }
