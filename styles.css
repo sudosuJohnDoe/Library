@@ -1,12 +1,12 @@
 ::selection {
-    background-color: #ffffff;
+	background-color: #ffffff;
 	color: #9c0000;
 }
 body {
-	background-color: #1e1e1e;
+	background-color: #0a0a0a;
 }
 p {
-	color: #e6a500;
+	color: #fe7600;
 	font-family: 'Courier New';
 	font-size: 20px;
 	text-align: center;
