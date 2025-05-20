@@ -42,7 +42,6 @@ p {
 .tooltip .tooltiptext {
 	background-color: #000000;
 	border-radius: 5px;
-	bottom: 100%;
 	color: #fa9200;
 	left: 50%;
 	margin-left: -60px;
@@ -50,6 +49,7 @@ p {
 	padding: 5px;
 	position: absolute;
 	text-align: center;
+	top: 100%;
 	transition: opacity 0.3s;		
 	visibility: visible;
 	width: 120px;
