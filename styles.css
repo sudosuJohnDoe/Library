@@ -39,7 +39,7 @@ p {
 	display: inline-block;
 	position: relative;
 }
-.tooltiptext {
+.tooltip .tooltiptext {
 	background-color: #fff;
 	border-radius: 5px;
 	bottom: 100%;
