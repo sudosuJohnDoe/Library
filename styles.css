@@ -3,11 +3,13 @@
 }
 body {
 	background-color: #0a0a0a;
-	color: #fa9200;
 	font-family: 'Courier New';
 	font-size: 16px;
 	font-weight: bold;
 	text-align: center;
+}
+p {
+	color: #fa9200;
 }
 .rectangle {
 	align-items: center;
