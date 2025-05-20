@@ -40,10 +40,10 @@ p {
 	position: relative;
 }
 .tooltip .tooltiptext {
-	background-color: #fff;
+	background-color: #000000;
 	border-radius: 5px;
 	bottom: 100%;
-	color: #000;
+	color: #fa9200;
 	left: 50%;
 	margin-left: -60px;
 	opacity: 0;
