@@ -28,11 +28,12 @@ body {
 	text-align: start;
 }
 #outputText {
-	/* ? */
+	font-size: 20px;
 }
 input {
 	background-color: transparent;
 	border: none;
+	font-size: 20px;
 	outline: none;
 	padding: 0px;
 }
