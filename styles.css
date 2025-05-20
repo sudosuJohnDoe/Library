@@ -51,7 +51,7 @@ p {
 	position: absolute;
 	text-align: center;
 	transition: opacity 0.3s;		
-	visibility: hidden;
+	visibility: visible;
 	width: 120px;
 	z-index: 1;
 }
