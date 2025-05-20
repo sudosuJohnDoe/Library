@@ -23,6 +23,20 @@ body {
 	position: relative;
 	text-decoration: none;
 }
+.textterminal {
+	font-size: 20px;
+}
+#outputText {
+	font-family: 'Courier New';
+	font-size: 20px;
+}
+input {
+	background-color: transparent;
+	border: none;
+	font-size: 20px;
+	outline: none;
+	padding: 0px;
+}
 .titletext0 {
 	font-size: 32px;
 }
