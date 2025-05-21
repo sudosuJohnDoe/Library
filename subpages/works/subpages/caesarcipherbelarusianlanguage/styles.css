@@ -1,0 +1,27 @@
+::selection {
+    background-color: #ffffff;
+    color: #9c0000;
+}
+body {
+	background-color: #1e1e1e;
+    color: #e6a500;
+    font-family: 'Courier New';
+    font-size: 20px;
+}
+textarea {
+    background-color: #1e1e1e;
+    border: 2px solid #999999;
+    color: #ffffff;
+    width: 90%;
+    height: 90px;
+    margin: auto;
+    padding: 10px;
+}
+input, button {
+    background-color: transparent;
+    border: 2px solid #999999;
+    color: #e6a500;
+    font-size: 15px;
+    margin: 3px 0;
+    width: 100%;
+}
