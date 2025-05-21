@@ -12,6 +12,32 @@ body {
 	font-weight: bold;
 	text-align: center;
 }
+img {
+	height:120px;
+	width:160px;
+}
+.img0 {
+	height:120px;
+	width:204px;
+}
+.img1 {
+	height:120px;
+	width:116px;
+}
+input {
+	color: #fa9200;
+	background-color: transparent;
+	border: none;
+	font-family: 'Courier New';
+	font-size: 20px;
+	font-weight: bold;
+	outline: none;
+	padding: 0px;
+}
+#outputText {
+	font-size: 20px;
+	text-align: start;
+}
 p {
 	font-size: 20px;
 }
@@ -32,32 +58,6 @@ p {
 .textterminal {
 	text-align: start;
 }
-#outputText {
-	font-size: 20px;
-	text-align: start;
-}
-input {
-	background-color: transparent;
-	border: none;
-	font-size: 20px;
-	outline: none;
-	padding: 0px;
-	color: #fa9200;
-	font-family: 'Courier New';
-	font-weight: bold;
-}
-img {
-    width:160px;
-    height:120px;
-}
-.img0 {
-    width:204px;
-    height:120px;
-}
-.img1 {
-    width:116px;
-    height:120px;
-}
 .titletext0 {
 	font-size: 32px;
 }
@@ -70,7 +70,7 @@ img {
 }
 .tooltip .tooltiptext {
 	background-color: #000000;
-	border-radius: 5px;
+	border-radius: 0px;
 	color: #fa9200;
 	left: 50%;
 	margin-left: -60px;
