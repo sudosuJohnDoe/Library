@@ -80,7 +80,7 @@ img {
 	text-align: center;
 	top: 100%;
 	transition: opacity 0.3s;		
-	visibility: visible;
+	visibility: hidden;
 	width: 120px;
 	z-index: 1;
 }
