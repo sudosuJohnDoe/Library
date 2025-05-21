@@ -12,6 +12,15 @@ body {
 	font-weight: bold;
 	text-align: center;
 }
+.copyrighttext {
+	color: #393939;
+	font-size: 9px;
+}
+.grid-container {
+	display: grid;
+	grid-template-rows: 1fr auto;
+	min-height: 100vh;
+}
 img {
 	height:120px;
 	width:160px;
