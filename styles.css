@@ -88,3 +88,10 @@ p {
 	visibility: visible;
 	opacity: 1;
 }
+.tooltiptext a {
+	color: #fa9200;
+	text-decoration: none;
+}
+.tooltiptext a:hover {
+	text-decoration: underline;
+}
