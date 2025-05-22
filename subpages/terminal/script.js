@@ -19,8 +19,17 @@ function checkInput() {
 	else if (userInput === 'open man.png') {
 		window.open('media/img/man.png');
 	}
-	else if (userInput === 'open index.html','open Main-Page.html') {
+	else if (userInput === 'open Main-Page.html','open Main-Page','open main-page') {
 		window.open('/index.html');
+	}
+	else if (userInput === 'open Art-Gallery.html','open Art-Gallery','open art-gallery') {
+		window.open('/subpages/art-gallery/art-gallery.html');
+	}
+	else if (userInput === 'open Works.html','open Works','open works') {
+		window.open('/subpages/works/works.html');
+	}
+	else if (userInput === 'run Terminal','run terminal') {
+		window.open('/subpages/terminal/terminal.html');
 	}
 	else {
 		output.textContent = 'bash: command not found';
