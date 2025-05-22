@@ -14,7 +14,10 @@ function checkInput() {
 	const userInput = document.getElementById('userInput').value;
 	const output = document.getElementById('outputText');
 	if (userInput === 'help') {
-		output.textContent = 'about - get info. about something or someone (example: about Terminal)'+'get-[file,info].[path] - download or get info. about file (example: get-file.Works/testchmb_a_one)'+'open - open file'+'run - run program';
+		output.textContent = 'about - get info. about something or someone (example: about Terminal), '+
+			'get-[file,info].[path] - download or get info. about file (example: get-file.Works/testchmb_a_one), '+
+			'open - open file (example: open Main-Page), '+
+			'run - run program (example: run Terminal)';
 	}
 	else if (userInput === 'about') {
 		output.textContent = 'about [NAMEOFSOMETHINGORSOMEONEHERE]';
