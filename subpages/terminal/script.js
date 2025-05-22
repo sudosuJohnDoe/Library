@@ -19,16 +19,16 @@ function checkInput() {
 	else if (userInput === 'open man.png') {
 		window.open('media/img/man.png');
 	}
-	else if (userInput === 'open Main-Page.html','open Main-Page','open main-page') {
+	else if (userInput === 'open Main-Page.html') {
 		window.open('/index.html');
 	}
-	else if (userInput === 'open Art-Gallery.html','open Art-Gallery','open art-gallery') {
+	else if (userInput === 'open Art-Gallery.html') {
 		window.open('/subpages/art-gallery/art-gallery.html');
 	}
-	else if (userInput === 'open Works.html','open Works','open works') {
+	else if (userInput === 'open Works.html') {
 		window.open('/subpages/works/works.html');
 	}
-	else if (userInput === 'run Terminal','run terminal') {
+	else if (userInput === 'run Terminal') {
 		window.open('/subpages/terminal/terminal.html');
 	}
 	else {
