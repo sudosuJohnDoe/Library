@@ -14,13 +14,22 @@ function checkInput() {
 	const userInput = document.getElementById('userInput').value;
 	const output = document.getElementById('outputText');
 	if (userInput === 'help') {
-		output.textContent = 'about - get info. about something or someone (example: about Terminal), get-[file,info].[path] - download or get info. about file (example: get-file.Works/testchmb_a_one), open - open file, run - run program';
+		output.textContent = 'about - get info. about something or someone (example: about Terminal)\n' +
+			'get-[file,info].[path] - download or get info. about file (example: get-file.Works/testchmb_a_one)\n' +
+			'open - open file\n' +
+			'run - run program';
 	}
 	else if (userInput === 'about') {
 		output.textContent = 'about [NAMEOFSOMETHINGORSOMEONEHERE]';
 	}
 	else if (userInput === 'about Terminal') {
 		output.textContent = 'Terminal Ver. = 0.0.3 (Stable)';
+	}
+	else if (userInput === 'get') {
+		output.textContent = 'get-[file,info].[PATHTOAFILEHERE]';
+	}
+	else if (userInput === 'get-file.Works/testchmb_a_one') {
+		output.textContent = 'get-d]';
 	}
 	else if (userInput === 'open') {
 		output.textContent = 'open [FILENAMEHERE]';
