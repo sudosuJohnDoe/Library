@@ -26,10 +26,7 @@ function checkInput() {
 		output.textContent = 'Terminal Ver. = 0.0.3 (Stable)';
 	}
 	else if (userInput === 'get') {
-		output.textContent = 'get-[file,info].[PATHTOAFILEHERE]';
-	}
-	else if (userInput === 'get-file.Works/testchmb_a_one') {
-		output.textContent = 'get-d]';
+		output.textContent = 'get-[file,info].[PATHTOAFILEHERE] (In Development!)';
 	}
 	else if (userInput === 'open') {
 		output.textContent = 'open [FILENAMEHERE]';
