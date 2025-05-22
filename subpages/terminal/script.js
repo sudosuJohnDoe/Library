@@ -14,16 +14,16 @@ function checkInput() {
 	const userInput = document.getElementById('userInput').value;
 	const output = document.getElementById('outputText');
 	if (userInput === 'help') {
-		output.textContent = 'open - open file';
+		output.textContent = 'open - open file, run - run programm';
 	}
-	else if (userInput === 'open man.png') {
-		window.open('media/img/man.png');
+	else if (userInput === 'open Art-Gallery.html') {
+		window.open('/subpages/art-gallery/art-gallery.html');
 	}
 	else if (userInput === 'open Main-Page.html') {
 		window.open('/index.html');
 	}
-	else if (userInput === 'open Art-Gallery.html') {
-		window.open('/subpages/art-gallery/art-gallery.html');
+	else if (userInput === 'open man.png') {
+		window.open('media/img/man.png');
 	}
 	else if (userInput === 'open Works.html') {
 		window.open('/subpages/works/works.html');
