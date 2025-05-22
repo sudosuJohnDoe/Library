@@ -14,7 +14,7 @@ function checkInput() {
 	const userInput = document.getElementById('userInput').value;
 	const output = document.getElementById('outputText');
 	if (userInput === 'help') {
-		output.textContent = 'about - get info. about something or someone (example: about Terminal)\nget-[file,info].[path] - download or get info. about file (example: get-file.Works/testchmb_a_one)\nopen - open file\nrun - run program';
+		output.textContent = 'about - get info. about something or someone (example: about Terminal)'+'get-[file,info].[path] - download or get info. about file (example: get-file.Works/testchmb_a_one)'+'open - open file'+'run - run program';
 	}
 	else if (userInput === 'about') {
 		output.textContent = 'about [NAMEOFSOMETHINGORSOMEONEHERE]';
