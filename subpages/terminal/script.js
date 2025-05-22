@@ -19,6 +19,9 @@ function checkInput() {
 	else if (userInput === 'open man.png') {
 		window.open('media/img/man.png');
 	}
+	else if (userInput === 'open index.html','open Main-Page.html') {
+		window.open('/index.html');
+	}
 	else {
 		output.textContent = 'bash: command not found';
 	}	
