@@ -14,7 +14,16 @@ function checkInput() {
 	const userInput = document.getElementById('userInput').value;
 	const output = document.getElementById('outputText');
 	if (userInput === 'help') {
-		output.textContent = 'open - open file, run - run programm';
+		output.textContent = 'open - open file, run - run programm, about - get info. about something or someone (example: about Terminal)';
+	}
+	else if (userInput === 'about') {
+		output.textContent = 'about [NAMEOFSOMETHINGORSOMEONEHERE]';
+	}
+	else if (userInput === 'about Terminal') {
+		output.textContent = 'Terminal Ver. = 0.0.3 (Stable) [© 2025 sudoJohnDoe. All Rights Reserved]';
+	}
+	else if (userInput === 'open') {
+		output.textContent = 'open [FILENAMEHERE]';
 	}
 	else if (userInput === 'open Art-Gallery.html') {
 		window.open('/subpages/art-gallery/art-gallery.html');
@@ -27,6 +36,9 @@ function checkInput() {
 	}
 	else if (userInput === 'open Works.html') {
 		window.open('/subpages/works/works.html');
+	}
+	else if (userInput === 'run') {
+		output.textContent = 'run [PROGRAMMNAMEHERE]';
 	}
 	else if (userInput === 'run Terminal') {
 		window.open('/subpages/terminal/terminal.html');
